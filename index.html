@@ -11,15 +11,27 @@
 
   <body>
     <header>
+        <button id="start">go</button>
     </header>
 
     <div class="door-x">
-            <img id="door1" class="door-frame" src="img/door.svg">
-            <img id="door2" class="door-frame" src="img/door.svg">
-            <img id="door3" class="door-frame" src="img/door.svg">
+            <img id="door1" class="door-frame" src="door.svg">
+            <img id="door2" class="door-frame" src="door.svg">
+            <img id="door3" class="door-frame" src="door.svg">
     </div>
 
-    <footer></footer>
+    <footer>
+        <table class="score-row">
+            <tr>
+              <th class="score-text">Current streak:</th>
+              <th class="score-text">Best streak:</th>
+            </tr>
+            <tr>
+              <th class="score-box" id="score-number"></th>
+              <th class="score-box" id="high-score-number"></th>
+            <tr>
+          </table>
+    </footer>
       <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
