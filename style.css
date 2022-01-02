@@ -1,0 +1,36 @@
+@import url(reset.css);
+
+body, html {
+    display: grid;
+    height: 100%;
+    font-family: 'DM Mono', monospace;
+    background: #323A23;    
+}
+
+header {
+    width: 100%;
+    height: 3rem;
+    background: #CEF141;
+    position: fixed;
+    top: 0;
+}
+
+.door-x {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.door-frame {
+    cursor: pointer;
+    padding: 0 2rem;
+    width: 15rem;
+}
+
+footer {
+    width: 100%;
+    height: 3rem;
+    background: #4CECC6;
+    position: fixed;
+    bottom: 0;
+}
