@@ -13,12 +13,26 @@ header {
     background: #CEF141;
     position: fixed;
     top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.door-x {
+
+button, .door-x {
     display: flex;
     justify-content: center;
     margin: auto;
+}
+
+footer table {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+footer table th {
+    padding: 0 10px;
 }
 
 .door-frame {
@@ -33,4 +47,7 @@ footer {
     background: #4CECC6;
     position: fixed;
     bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
